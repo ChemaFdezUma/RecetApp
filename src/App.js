@@ -1,20 +1,5 @@
-import logo from './componentes/logo.png';
-import dA from './componentes/imagenesInicio/derechaAbajo.png';
-import dM from './componentes/imagenesInicio/derechaArriba.png';
-import iA from './componentes/imagenesInicio/izqArriba.png';
-import iG from './componentes/imagenesInicio/izqAbajo.png';
-import iM from './componentes/imagenesInicio/izqMedio.png';
-import Titulo from './componentes/RecetAppLetra.svg';
-import fL from './componentes/fotoLogin.png'
-import flecha from './componentes/flecha.png'
-
-import { useLayoutEffect } from 'react';
-import { useState } from 'react';
-import { Login } from "./componentes/LoginRegistro/Login";
-import { Register } from "./componentes/LoginRegistro/Register";
 import './componentes/App.css';
 import { gsap } from 'gsap';
-import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 import { Link, Route, Routes } from "react-router-dom"
 import Inicio from './componentes/Inicio.jsx';
 //<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
